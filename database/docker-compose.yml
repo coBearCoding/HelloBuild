@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  mongo:
+      container_name: helloBuildDB
+      image: mongo
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: hellobuild
+        MONGO_INITDB_ROOT_PASSWORD: test123
+        MONGO_INITDB_DATABASE: helloBuildDB
+      ports:
+      - "27018:27017"
+      logging:
+        driver: none

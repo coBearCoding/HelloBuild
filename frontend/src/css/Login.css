@@ -1,0 +1,26 @@
+.btn-primary {
+    color: #fff;
+    background-color: #714faf !important;
+    border-color: #714faf !important;
+}
+.icon-img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 2rem;
+    color: #926ed1;
+}
+.sign-up {
+    color: #b29dee;
+}
+
+.toast-header {
+    background-color: #e0929a !important;
+}
+
+.me-auto{
+    color: white;
+}
+
+.toast-body{
+    font-weight: bold;
+}

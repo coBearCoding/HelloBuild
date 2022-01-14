@@ -1,0 +1,9 @@
+.RepoLoginText {
+    font-weight: bold;
+    font-size: 50px;
+    color: #6c62fe;
+    vertical-align: center;
+}
+.btn-primary{
+    background-color: #6c62fe !important;
+}
